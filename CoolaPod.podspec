@@ -26,8 +26,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Frameworks/**/*'
-
+#s.source_files = 'Pod/Classes/**/*'
+  s.vendored_frameworks = 'Pod/Frameworks/cooladata-ios-sdk.framework'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
