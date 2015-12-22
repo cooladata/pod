@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "CoolaPod"
-  s.version          = "2.0.6"
+  s.version          = "2.0.6.1"
   s.summary          = "CoolaData sdk."
 
 # This description is used to generate tags and improve search results.
