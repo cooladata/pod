@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '9B76B0A25B7A5D4143D7318A'
+               BlueprintIdentifier = '80533D7E347763721611009E'
                BlueprintName = 'CoolaPod'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'CoolaPod.framework'>

@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## CoolaPod
 
-Copyright (c) 2015 Tomer Lavi <tomer@assist.co.il>
+Copyright (c) 2015 Tomer Ben-Moshe <tomer@cooladata.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
