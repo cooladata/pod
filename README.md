@@ -22,7 +22,7 @@ pod "CoolaPod"
 
 ## Author
 
-Tomer Lavi, tomer@assist.co.il
+Tomer Ben-Moshe, tomer@cooladata.com
 
 ## License
 

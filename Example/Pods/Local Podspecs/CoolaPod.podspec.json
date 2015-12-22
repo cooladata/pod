@@ -1,0 +1,25 @@
+{
+  "name": "CoolaPod",
+  "version": "0.1.0",
+  "summary": "A short description of CoolaPod.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/CoolaPod",
+  "license": "MIT",
+  "authors": {
+    "Tomer Lavi": "tomer@assist.co.il"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/CoolaPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "CoolaPod": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

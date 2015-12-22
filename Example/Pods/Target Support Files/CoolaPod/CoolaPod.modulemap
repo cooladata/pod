@@ -1,0 +1,6 @@
+framework module CoolaPod {
+  umbrella header "CoolaPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
