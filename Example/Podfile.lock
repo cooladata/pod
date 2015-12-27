@@ -1,5 +1,5 @@
 PODS:
-  - CoolaPod (2.0.6)
+  - CoolaPod (2.0.7)
 
 DEPENDENCIES:
   - CoolaPod (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CoolaPod: 45dfb5db14d1171016428c2453966f1cf120e9ee
+  CoolaPod: 831bcd4655e29c3b0aafe1209840ab03c74e8918
 
 COCOAPODS: 0.39.0
