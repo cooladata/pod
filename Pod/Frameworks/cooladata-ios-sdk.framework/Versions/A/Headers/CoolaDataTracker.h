@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#define COOLA_TRACKER_VERSION @"2.0.5"
+#define COOLA_TRACKER_VERSION @"2.0.8"
 
 @class ErrorObj;
 @class CoolaDataDeliveryResult;
@@ -29,6 +29,11 @@ typedef void (^ResponseBlock) (CoolaDataDeliveryResult *result);
  @return CoolaDataTracker shared instance.
  */
 +(CoolaDataTracker*)getInstance;
+
+/**
+ Use this method to get the CoolaData tracker shared instance.
+ */
++(void)updateServiceEndPoint:(NSString *)serviceEndPoint;
 
 /**
  Use this method to setup CoolaData Tracker.
