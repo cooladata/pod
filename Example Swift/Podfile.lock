@@ -1,0 +1,10 @@
+PODS:
+  - CoolaPod (2.0.8)
+
+DEPENDENCIES:
+  - CoolaPod (~> 2.0.8)
+
+SPEC CHECKSUMS:
+  CoolaPod: 8dda896ee77417f718404009ad779f409553d362
+
+COCOAPODS: 0.39.0
