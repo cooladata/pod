@@ -1,1 +1,0 @@
-../../../../../../Pod/Frameworks/cooladata-ios-sdk.framework/Versions/A/Headers/CoolaDataTracker.h

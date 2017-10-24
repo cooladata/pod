@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//import CoolaDataTracker
+import CoolaDataTracker
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, CoolaDataDelegate {
@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CoolaDataDelegate {
 
 
 	func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+//		CoolaDataTracker.updateServiceEndPoint("https://udc-neb.kampyle.com/")
 		CoolaDataTracker.getInstance().setupWithAppKey("<Your app key>")
 		CoolaDataTracker.getInstance().customEventHandler = self
 		CoolaDataTracker.getInstance().trackEvent("App Started from Swift", properties: nil)
