@@ -1,0 +1,21 @@
+PODS:
+  - CoolaPod (2.4)
+
+DEPENDENCIES:
+  - CoolaPod (from `https://github.com/cooladata/pod.git`)
+
+EXTERNAL SOURCES:
+  CoolaPod:
+    :git: https://github.com/cooladata/pod.git
+
+CHECKOUT OPTIONS:
+  CoolaPod:
+    :commit: b387465a514452b5bcf414ab085c32cf881de214
+    :git: https://github.com/cooladata/pod.git
+
+SPEC CHECKSUMS:
+  CoolaPod: 4ee353ce9aaccaf38f4c772aca9a9a0d06b7f0cf
+
+PODFILE CHECKSUM: fdc7e5e85b62f992272590032d3e027788a2f1d4
+
+COCOAPODS: 1.11.2

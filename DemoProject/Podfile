@@ -1,0 +1,6 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '12.0'
+
+target 'DemoProject' do
+  pod 'CoolaPod', :git => 'https://github.com/cooladata/pod.git'
+end
