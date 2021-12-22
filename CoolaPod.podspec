@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "9.0"
   s.requires_arc = true
 
-  s.preserve_paths = 'cooladata_ios_sdk.xcframework/*'
+  s.preserve_paths = 'Cooladata.xcframework/*'
   s.source_files = 'Cooladata.xcframework/ios-arm64_armv7/Cooladata.framework/Headers/*.{h,m}'
   s.vendored_frameworks = 'Cooladata.xcframework'
   s.public_header_files = 'Cooladata.xcframework/ios-arm64_armv7/Cooladata.framework/Headers/*.{h,m}'
