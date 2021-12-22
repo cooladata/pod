@@ -1,0 +1,6 @@
+framework module Cooladata {
+  umbrella header "Cooladata.h"
+
+  export *
+  module * { export * }
+}

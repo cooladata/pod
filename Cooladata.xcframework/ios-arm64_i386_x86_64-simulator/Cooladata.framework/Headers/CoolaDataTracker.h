@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#define COOLA_TRACKER_VERSION @"2.4"
+#define COOLA_TRACKER_VERSION @"2.5"
 
 @class ErrorObj;
 @class CoolaDataDeliveryResult;

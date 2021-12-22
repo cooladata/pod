@@ -1,6 +1,0 @@
-framework module cooladata_ios_sdk {
-  umbrella header "cooladata_ios_sdk.h"
-
-  export *
-  module * { export * }
-}

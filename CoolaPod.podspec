@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "CoolaPod"
-  s.version          = "2.4"
+  s.version          = "2.5"
   s.summary          = "CoolaData sdk"
   s.description      = "CoolaData SDK for iOS clients."
 
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.preserve_paths = 'cooladata_ios_sdk.xcframework/*'
-  s.source_files = 'cooladata_ios_sdk.xcframework/ios-arm64_armv7/cooladata_ios_sdk.framework/Headers/*.{h,m}'
-  s.vendored_frameworks = 'cooladata_ios_sdk.xcframework'
-  s.public_header_files = 'cooladata_ios_sdk.xcframework/ios-arm64_armv7/cooladata_ios_sdk.framework/Headers/*.{h,m}'
+  s.source_files = 'Cooladata.xcframework/ios-arm64_armv7/Cooladata.framework/Headers/*.{h,m}'
+  s.vendored_frameworks = 'Cooladata.xcframework'
+  s.public_header_files = 'Cooladata.xcframework/ios-arm64_armv7/Cooladata.framework/Headers/*.{h,m}'
 end
